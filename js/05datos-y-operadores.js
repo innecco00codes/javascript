@@ -10,7 +10,7 @@ alert("Es resultado de la operacón es: "+operacion);
 //TIPOS DE DATOS
 var numero_entero = 44;
 var cadena_texto = "Hola que tal";
-var verdadero_o_falso = true; //true o false, 0 O 1 VARIABLE BULEANO
+var verdadero_o_falso = true; //true o false, 0 O 1 VARIABLE BOOLEANO
 
 //FUNCION: PARA CAMBIAR UN DATO A OTRO
 
@@ -20,3 +20,6 @@ console.log(Number(numero_falso)+7); //Funcion Number cambia el valor del string
 console.log(parseInt(numero_falso)+7);
 console.log(parseFloat(numero_falso)+7); //numeros con decimales
 console.log(String(numero_entero)+4);// String cambia el valor de numero a texto
+
+
+console.log(typeof numero_falso); //TYPEOF: te muestra que tipo de variable es
