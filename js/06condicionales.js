@@ -22,7 +22,7 @@ else{
     Distinto !=
 */
 
-var edad = 30;
+var edad = 40;
 var nombre = "Carlos Lapenta";
 
 if(edad >=18){
