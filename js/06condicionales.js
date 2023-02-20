@@ -37,3 +37,21 @@ if(edad >=18){
 }else{
     console.log(nombre+ " tiene "+edad+" años, es MENOR de edad.");
 }
+
+/*
+//OPERADORES LOGICOS
+AND(y): &&
+OR(O): ||
+NEGACION: !
+*/
+
+var year = 2018;
+
+//NEGACION
+
+if(year != 2016){
+    console.log("El año no es 2016, realmente es: " + year);
+}
+
+//AND
+if(year>= 2000 //)
