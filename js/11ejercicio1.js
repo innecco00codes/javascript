@@ -2,11 +2,17 @@
 
 /*
 PROGRAMA QUE PIDA DOS NUMEROS Y QUE NOS DIGA CUAL ES EL MAYOR, EL MENOR Y SI SON IGUALES
+
+PLUS: SI LOS NUMEROS NO SON NUMEROS O MENORES DE 0 O IGUALES A 0, NOS VUELVA A PEDIR LOS DATOS
 */
 
 var numero1 = parseInt(prompt("Inroduce el primer número", 0));
 var numero2 = parseInt(prompt("Introduce el segundo número", 0));
-console.log(numero1, numero2);
+
+while(numero1 <= 0 || numero2 <=0 || isNaN(numero1) || isNaN(numero2)){
+    var numero1 = parseInt(prompt("Inroduce el primer número", 0));
+    var numero2 = parseInt(prompt("Introduce el segundo número", 0));
+}
 
 if (numero1 == numero2){
     alert("Los números son iguales");
