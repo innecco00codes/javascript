@@ -3,17 +3,18 @@
 // FUNCIONES : ES UNA AGRUPACION REUTILIZABLE DE UN CONJUNTO DE INSTRUCCIONES
 
 //Defino la funciones
-function calculadora(){
+function calculadora(numero1, numero2){
 
-    //Conjunto de instrucciones a ejecutar
-    return "Hola soy la calculadora";
+    console.log("Suma: " + (numero1 + numero2));
+    console.log("Resta: " + (numero1 - numero2));
+    console.log("Multiplicacion: " + (numero1 * numero2));
+    console.log("Division: " + (numero1 / numero2));
    
 }
 
-//Invocar o llamar la funcion.
+calculadora(5,5);
 
-calculadora();
-console.log(calculadora);
+
 
 
 
