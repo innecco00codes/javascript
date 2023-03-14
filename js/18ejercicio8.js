@@ -19,9 +19,11 @@ var resultado = "La suma es: " + (numero1 + numero2) + "<br/>" +
                 "La multiplicacion es :" + (numero1 * numero2)+"<br/>"+
                 "La división es :" + (numero1 / numero2) + "<br/>";
 
-var resultado = "La suma es: " + (numero1 + numero2) + "<br/>" + 
-                "La resta es: " + (numero1 - numero2) + "<br/>" + 
-                "La multiplicacion es :" + (numero1 * numero2)+"<br/>"+
-                "La división es :" + (numero1 / numero2) + "<br/>";
+var resultadoCMD = "La suma es: " + (numero1 + numero2) + "\n" + 
+                "La resta es: " + (numero1 - numero2) + "\n" + 
+                "La multiplicacion es :" + (numero1 * numero2)+"\n"+
+                "La división es :" + (numero1 / numero2) + "\n";
 
 document.write(resultado);
+alert(resultadoCMD);
+console.log(resultadoCMD);
