@@ -32,7 +32,7 @@ function calculadora(numero1, numero2, mostrar = false){
 
 //INVOCAR O LLAMAR LA FUNCION
 calculadora(5,5);
-calculadora(3,5, true);
+calculadora(3,5);
 
 /*
 for(var i = 1; i <= 10; i++){
