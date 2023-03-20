@@ -30,3 +30,15 @@ sumame(5,7,function(dato){
 function(dato){
   console.log("La suma por dos es: " + (dato * 2));
 });
+
+//FUNCIONES FLECHA: ES PRACTICAMENTE REEMPLAZAR LA PALABRA FUNCTION
+// POR UNA FLECHA  =>
+
+sumame(5,5, dato => {
+  console.log("La suma es: " + (dato));
+},
+dato => {
+  console.log("La suma por dos es: " + (dato * 2));
+});
+
+
