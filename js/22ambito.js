@@ -11,5 +11,5 @@ function holaMundo (texto){
 }
 
 var numero = 12;
-var texto = "Hola mundo sou una variable global";
+var texto = "Hola mundo soy una variable global";
 holaMundo(texto);
