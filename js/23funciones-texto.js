@@ -29,3 +29,8 @@ console.log(textoTotal);
 
 var textoTotal2 = texto1.concat(". " + texto2);
 console.log(textoTotal2);
+
+// BUSCAR PALABRA DENTRO DE STRING = indexOf  o  lastIndexOf
+
+var busqueda = texto1.indexOf("curso");
+console.log(busqueda);
