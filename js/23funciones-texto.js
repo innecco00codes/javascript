@@ -30,7 +30,38 @@ console.log(textoTotal);
 var textoTotal2 = texto1.concat(". " + texto2);
 console.log(textoTotal2);
 
-// BUSCAR PALABRA DENTRO DE STRING = indexOf  o  lastIndexOf
+// BUSCAR PALABRA DENTRO DE STRING = indexOf/search o lastIndexOf  
 
-var busqueda = texto1.indexOf("curso");
+var busqueda = texto1.search("de");
 console.log(busqueda);
+
+//BUSQUEDA EN FORMA DE Array DE FORMA GLOBAL.
+
+var busqueda2 = textoTotal.match(/curso/gi); 
+console.log(busqueda2);
+
+//PARA BUSCAR PARABRAS EN UNA POSICION ESPECIFICA
+
+var busqueda3 = textoTotal.substr(24,11);
+console.log(busqueda3);
+
+//PARA BUSCAR UNA LETRA ESPECIFICA
+
+var busqueda4 = textoTotal.charAt(24);
+console.log(busqueda4);
+
+//PARA BUSCAR AL INICIO DE UN STRING O AL FINAL ( startWith - endsWith)
+// te coloca si es true o false
+
+
+//BUSQUEDA DE PALABRA - true o false
+
+var busqueda5 = textoTotal.includes("Carlos");
+console.log(busqueda5);
+
+
+
+
+
+
+
