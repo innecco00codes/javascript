@@ -3,8 +3,8 @@
 // TRANSFORMACION DE TEXTOS
 
 var numero = 444;
-var texto1 = "Bienvenidos al curso de Javascript";
-var texto2 = "Es muy buen curso";
+var texto1 = "   Bienvenidos al curso de Javascript";
+var texto2 = "Es muy buen curso   ";
 
 // CAMBIAR EL NUMERO A STRING
 
@@ -58,6 +58,28 @@ console.log(busqueda4);
 
 var busqueda5 = textoTotal.includes("Carlos");
 console.log(busqueda5);
+
+//REAMPLAZAR PALABRA POR OTRA
+
+var busqueda6 = textoTotal.replace("Javascript", "Java");
+console.log(busqueda6);
+
+//retornar una parte del string desde donde queramos
+
+var busqueda7 = textoTotal.slice(15,24);
+console.log(busqueda7);
+
+//RECORTAR UN STRING Y SEPARA LAS PALABRAS : split(" ") o split()
+
+var busqueda8 = textoTotal.split();
+console.log(busqueda8);
+
+//RECORTAR ESPACIOS SOBRANTES EN UN STRING
+
+var busqueda9 = textoTotal.trim();
+console.log(busqueda9);
+
+
 
 
 
