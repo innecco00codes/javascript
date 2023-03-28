@@ -63,7 +63,7 @@ document.write("</ul>");
 //BUSQUEDA
 
 var busqueda = peliculas.find( pelicula => pelicula == "Cars");
-var busqueda2 = peliculas.findIndex( pelicula => pelicula == "Cars");
+var busqueda2 = peliculas.findIndex( pelicula => pelicula == "Cars")
 
 console.log(busqueda);
 console.log(busqueda2);
