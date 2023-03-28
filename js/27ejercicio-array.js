@@ -32,3 +32,8 @@ console.log(numeros);
 //numeros.sort(); ORDENA NUMEROS  ALFABETICAMENTE
 numeros.sort(function(a,b){return a-b});//FUNCION NUMEROS ORDENADOS
 mostrarArray(numeros, "ordenado");
+
+numeros.reverse();
+mostrarArray(numeros, "revertido");
+
+
