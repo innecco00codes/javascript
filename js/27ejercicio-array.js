@@ -44,6 +44,7 @@ var posicion = numeros.findIndex(numero => numero == busqueda);
 if(posicion && posicion != -1){
     document.write("ENCONTRADO");
     document.write("Posición de la busqueda: " + posicion);
+    
 }else{
     document.write("NO ENCONTRADO");
 };
