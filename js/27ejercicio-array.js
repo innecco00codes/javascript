@@ -36,4 +36,15 @@ mostrarArray(numeros, "ordenado");
 numeros.reverse();
 mostrarArray(numeros, "revertido");
 
+document.write("la lista tiene: " + (numeros.length) + " elementos.");
+
+var busqueda = parseInt(prompt("Busca un numero", 0));
+var posicion = numeros.findIndex(numero => numero == busqueda);
+
+if(posicion && posicion != -1){
+    document.write("ENCONTRADO");
+    document.write("Posición de la busqueda: " + posicion);
+}else{
+    document.write("NO ENCONTRADO");
+};
 
